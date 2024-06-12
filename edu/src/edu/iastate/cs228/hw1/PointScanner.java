@@ -126,7 +126,7 @@ public class PointScanner
 		aSorter.sort();
 		long endTime = System.nanoTime();
 		long sortXTime = endTime - startTime;
-		aSorter.printPoints(); //Just to see if its actually working
+//		aSorter.printPoints(); //Just to see if its actually working
 		medianX = aSorter.getMedian().getX();
 		
 		startTime = System.nanoTime();
@@ -134,7 +134,7 @@ public class PointScanner
 		aSorter.sort();
 		endTime = System.nanoTime();
 		long sortYTime = endTime - startTime;
-		aSorter.printPoints(); //Just to see if its actually working
+//		aSorter.printPoints(); //Just to see if its actually working
 		medianY = aSorter.getMedian().getY();
 		
 		medianCoordinatePoint = new Point(medianX, medianY);
